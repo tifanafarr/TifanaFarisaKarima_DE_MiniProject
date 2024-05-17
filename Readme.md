@@ -1,10 +1,10 @@
-# Mini Project Data Engineer di Alterra Academy
+# Mini Project Data Engineer 
 
 <!-- Table of Content -->
 ## Table of Contents
-- [Mini Project Data Engineer di Alterra Academy](#mini-project-data-engineer-di-alterra-academy)
+- [Mini Project Data Engineer](#mini-project-data-engineer)
   - [Table of Contents](#table-of-contents)
-  - [1. Pengantar](#1-pengantar)
+  - [About Project](#about-project)
   - [2. Ekstraksi Data (Extract)](#2-ekstraksi-data-extract)
     - [2.1 File CSV](#21-file-csv)
     - [2.2 File JSON](#22-file-json)
