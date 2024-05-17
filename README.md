@@ -60,3 +60,32 @@ Proyek ini bertujuan untuk mempersiapkan data agar dapat digunakan dalam model p
 ### Version Control and Collaboration
 - Git
 - Github
+
+## Features
+### Ekstraksi Data (Extract)
+Proses ekstraksi data dilakukan dari berbagai sumber.
+- File CSV: Ekstraksi data dari berbagai file CSV seperti projects_data.csv dan population_data.csv.
+- File JSON: Ekstraksi data dari file JSON seperti population_data.json.
+- File XML: Ekstraksi data dari file XML seperti population_data.xml menggunakan BeautifulSoup.
+- Database SQLite: Ekstraksi data dari database SQLite seperti population_data.db menggunakan library sqlite3 atau SQLAlchemy.
+- API World Bank: Ekstraksi data dari API World Bank untuk data populasi.
+
+### Transformasi Data (Transformation)
+Proses transformasi data untuk membuatnya sesuai dengan format yang konsisten
+1. Menggabungkan Data dari Berbagai Sumber:       
+  - Integrasi data dari CSV, JSON, XML, database, dan API menjadi satu dataset konsisten.
+2. Pembersihan Data (Data Cleaning):
+  - Penanganan Data yang Hilang (Missing Data)
+  - Penghapusan Data Duplikat (Duplicate Data)
+3. Transformasi Lanjutan:
+  - Penyesuaian Tipe Data (Datetime, Float, Integer, String)
+  - Parsing Tanggal
+  - Penanganan Encoding File
+  - Penghapusan Outliers menggunakan teknik IQR atau Z-Score
+  - Penskalaan Fitur menggunakan StandardScaler atau MinMaxScaler
+  - Pembuatan Variabel Dummy (Dummy Variables)
+  - Rekayasa Fitur (Feature Engineering)
+
+### Memuat Data (Load)
+Proses Load adalah data yang telah bersih dan siap
+1. Pemuatan ke Database atau Cloud Storage: Memuat kolom yang relevan seperti countryname, countrycode, year, gdp, population, gdppercapita, ruralpopulationpercent, electricityaccesspercent, dan projectcost ke database atau Google Cloud Storage.
