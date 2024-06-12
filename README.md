@@ -88,5 +88,7 @@ Proses transformasi data untuk membuatnya sesuai dengan format yang konsisten
 
 ### Memuat Data (Load)
 Proses Load adalah data yang telah bersih dan siap
+<<<<<<< HEAD
 1. Pemuatan ke Firebase: Memuat kolom yang relevan seperti countryname, countrycode, year, gdp, population, gdppercapita, ruralpopulationpercent, electricityaccesspercent, dan projectcost ke database atau Google Cloud Storage.
 ![alt text](image.png)
+
